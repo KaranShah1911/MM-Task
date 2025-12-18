@@ -1,0 +1,23 @@
+.quote-container {
+    text-align: center;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    border-radius: 12px;
+    color: white;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.quote-container blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0 0 0.5rem 0;
+    font-weight: 500;
+}
+
+.quote-container cite {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    display: block;
+    margin-top: 0.5rem;
+}
