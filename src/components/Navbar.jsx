@@ -9,7 +9,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         <h1>Course Finder</h1>
       </div>
       <button onClick={toggleDarkMode} className="theme-toggle" aria-label="Toggle Dark Mode">
-        {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+        {darkMode ? '☀️' : '🌙'}
       </button>
     </nav>
   );
